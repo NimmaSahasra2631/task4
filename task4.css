@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 40px;
+  display: none;
+}
+section.active {
+  display: block;
+}
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+.hero h2 {
+  color: #222;
+}
+.hero ul {
+  list-style: none;
+  padding: 0;
+}
+.hero ul li {
+  background: #eee;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#todo {
+  text-align: center;
+}
+#todo input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+#todo button {
+  padding: 10px 15px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#todo button:hover {
+  background: #555;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 20px auto;
+}
+#taskList li {
+  margin: 5px;
+  padding: 10px;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+#taskList li button {
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+#taskList li button:hover {
+  background: darkred;
+}
+#products {
+  text-align: center;
+}
+label {
+  margin: 0 10px;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.product h3 {
+  margin: 10px 0;
+}
